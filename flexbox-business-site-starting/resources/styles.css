@@ -1,0 +1,133 @@
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: underline;
+  /* color: green; */
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+
+nav a:link {
+  color: green;
+}
+
+nav a:visited {
+  color: blue;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+nav a:active {
+  color: red;
+}
+
+.brand-logo {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  /* header nav {
+    width: 90%;
+  } */
+}
+
+.banner {
+  height: 33.75rem;
+  background-image: url('./images/business-buildings.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.welcome-info {
+  background-color: white;
+  text-align: center;
+}
+
+.portfolio-note {
+  text-align: center;
+  margin-top: 3.75rem;
+}
+
+.gallery-group {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 2.5rem auto;
+}
+
+.gallery-group img {
+  height: 300px;
+  max-width: 100%;
+  display: block;
+}
+
+.gallery-set {
+  /* flex-basis: 30%; */
+  text-align: center;
+}
+
+.team-members-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team-members-section h2 {
+  text-align: center;
+  font-size: 1.875rem;
+}
+
+.team-members {
+  background-image: url(./images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 34.25rem; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.team-members figure {
+  background-color: rgba(179, 167, 167, 0.8);
+}
+
+.team-members img {
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin: 2.5rem auto;
+}
+
+footer {
+  margin: 6.25rem auto;
+  text-align: center;
+}
+
+footer h1,
+footer h2 {
+  margin-top: 70px;
+}
+
+#copyright {
+  text-align: center;
+  margin: 0 auto;
+}
